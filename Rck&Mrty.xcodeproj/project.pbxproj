@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446DDFEF283F6DED00720DE8 /* ListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446DDFEE283F6DED00720DE8 /* ListState.swift */; };
+		446DDFF1283F6EA100720DE8 /* StrokeTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446DDFF0283F6EA100720DE8 /* StrokeTitle.swift */; };
 		44A00D2B281C66DA00E23015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A00D2A281C66DA00E23015 /* AppDelegate.swift */; };
-		44A00D2D281C66DA00E23015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A00D2C281C66DA00E23015 /* SceneDelegate.swift */; };
-		44A00D2F281C66DA00E23015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A00D2E281C66DA00E23015 /* ViewController.swift */; };
-		44A00D32281C66DA00E23015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A00D30281C66DA00E23015 /* Main.storyboard */; };
+		44A00D2F281C66DA00E23015 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A00D2E281C66DA00E23015 /* AppView.swift */; };
 		44A00D34281C66DD00E23015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A00D33281C66DD00E23015 /* Assets.xcassets */; };
 		44A00D37281C66DD00E23015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A00D35281C66DD00E23015 /* LaunchScreen.storyboard */; };
+		44DE01F2281C71F10019A0FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE01F1281C71F10019A0FA /* HomeView.swift */; };
+		44DE01F4281C720C0019A0FA /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE01F3281C720C0019A0FA /* FavoritesView.swift */; };
+		44DE01F6281C721A0019A0FA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE01F5281C721A0019A0FA /* SearchView.swift */; };
+		44DE01F8281CA87B0019A0FA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE01F7281CA87B0019A0FA /* DetailsView.swift */; };
+		44DE01FB281FF5620019A0FA /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE01FA281FF5620019A0FA /* AsyncImage.swift */; };
+		44DE01FF281FF6C80019A0FA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE01FE281FF6C80019A0FA /* Theme.swift */; };
+		44DE020228213F2B0019A0FA /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 44DE020128213F2B0019A0FA /* ComposableArchitecture */; };
+		44DE020428213F5F0019A0FA /* DetailsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE020328213F5F0019A0FA /* DetailsState.swift */; };
+		44DE02092821902D0019A0FA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE02082821902D0019A0FA /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		446DDFEE283F6DED00720DE8 /* ListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListState.swift; sourceTree = "<group>"; };
+		446DDFF0283F6EA100720DE8 /* StrokeTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeTitle.swift; sourceTree = "<group>"; };
 		44A00D27281C66DA00E23015 /* Rck&Mrty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rck&Mrty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A00D2A281C66DA00E23015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44A00D2C281C66DA00E23015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44A00D2E281C66DA00E23015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44A00D31281C66DA00E23015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A00D2E281C66DA00E23015 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		44A00D33281C66DD00E23015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44A00D36281C66DD00E23015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44A00D38281C66DD00E23015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DE01F1281C71F10019A0FA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44DE01F3281C720C0019A0FA /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		44DE01F5281C721A0019A0FA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		44DE01F7281CA87B0019A0FA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		44DE01FA281FF5620019A0FA /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		44DE01FE281FF6C80019A0FA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		44DE020328213F5F0019A0FA /* DetailsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsState.swift; sourceTree = "<group>"; };
+		44DE02082821902D0019A0FA /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DE020228213F2B0019A0FA /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,47 @@
 		44A00D29281C66DA00E23015 /* Rck&Mrty */ = {
 			isa = PBXGroup;
 			children = (
+				44B8A6162822BF7D006D47A1 /* Home */,
+				44DE0207282190180019A0FA /* App */,
+				44DE01F9281FF5390019A0FA /* Details */,
 				44A00D2A281C66DA00E23015 /* AppDelegate.swift */,
-				44A00D2C281C66DA00E23015 /* SceneDelegate.swift */,
-				44A00D2E281C66DA00E23015 /* ViewController.swift */,
-				44A00D30281C66DA00E23015 /* Main.storyboard */,
+				44A00D2E281C66DA00E23015 /* AppView.swift */,
 				44A00D33281C66DD00E23015 /* Assets.xcassets */,
 				44A00D35281C66DD00E23015 /* LaunchScreen.storyboard */,
 				44A00D38281C66DD00E23015 /* Info.plist */,
+				44DE01F3281C720C0019A0FA /* FavoritesView.swift */,
+				44DE01F5281C721A0019A0FA /* SearchView.swift */,
+				44DE01FE281FF6C80019A0FA /* Theme.swift */,
 			);
 			path = "Rck&Mrty";
+			sourceTree = "<group>";
+		};
+		44B8A6162822BF7D006D47A1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				44DE01F1281C71F10019A0FA /* HomeView.swift */,
+				446DDFEE283F6DED00720DE8 /* ListState.swift */,
+				446DDFF0283F6EA100720DE8 /* StrokeTitle.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		44DE01F9281FF5390019A0FA /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				44DE01F7281CA87B0019A0FA /* DetailsView.swift */,
+				44DE01FA281FF5620019A0FA /* AsyncImage.swift */,
+				44DE020328213F5F0019A0FA /* DetailsState.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		44DE0207282190180019A0FA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				44DE02082821902D0019A0FA /* AppState.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +133,9 @@
 			dependencies = (
 			);
 			name = "Rck&Mrty";
+			packageProductDependencies = (
+				44DE020128213F2B0019A0FA /* ComposableArchitecture */,
+			);
 			productName = "Rck&Mrty";
 			productReference = 44A00D27281C66DA00E23015 /* Rck&Mrty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 44A00D1E281C66DA00E23015;
+			packageReferences = (
+				44DE020028213F260019A0FA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 44A00D28281C66DA00E23015 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +183,6 @@
 			files = (
 				44A00D37281C66DD00E23015 /* LaunchScreen.storyboard in Resources */,
 				44A00D34281C66DD00E23015 /* Assets.xcassets in Resources */,
-				44A00D32281C66DA00E23015 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +193,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A00D2F281C66DA00E23015 /* ViewController.swift in Sources */,
+				44DE01FF281FF6C80019A0FA /* Theme.swift in Sources */,
+				44DE01FB281FF5620019A0FA /* AsyncImage.swift in Sources */,
+				44DE01F6281C721A0019A0FA /* SearchView.swift in Sources */,
+				446DDFEF283F6DED00720DE8 /* ListState.swift in Sources */,
+				44DE01F4281C720C0019A0FA /* FavoritesView.swift in Sources */,
+				44DE020428213F5F0019A0FA /* DetailsState.swift in Sources */,
+				44DE01F2281C71F10019A0FA /* HomeView.swift in Sources */,
+				44DE02092821902D0019A0FA /* AppState.swift in Sources */,
+				44A00D2F281C66DA00E23015 /* AppView.swift in Sources */,
 				44A00D2B281C66DA00E23015 /* AppDelegate.swift in Sources */,
-				44A00D2D281C66DA00E23015 /* SceneDelegate.swift in Sources */,
+				446DDFF1283F6EA100720DE8 /* StrokeTitle.swift in Sources */,
+				44DE01F8281CA87B0019A0FA /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		44A00D30281C66DA00E23015 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44A00D31281C66DA00E23015 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		44A00D35281C66DD00E23015 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +350,9 @@
 				INFOPLIST_FILE = "Rck&Mrty/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +378,9 @@
 				INFOPLIST_FILE = "Rck&Mrty/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44DE020028213F260019A0FA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44DE020128213F2B0019A0FA /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44DE020028213F260019A0FA /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44A00D1F281C66DA00E23015 /* Project object */;
 }
