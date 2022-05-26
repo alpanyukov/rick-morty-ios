@@ -49,15 +49,9 @@ struct DetailsView: View {
                     viewStore.send(.favoriteTapped)
                   }
                 }) {
-                  if viewStore.state.isFavorite {
-                    Image("heart.fill", bundle: .main)
-                      .renderingMode(.template)
-                      .foregroundColor(theme.colors.bg.color)
-                  } else {
-                    Image("heart", bundle: .main)
-                      .renderingMode(.template)
-                      .foregroundColor(theme.colors.main.color)
-                  }
+                  Image(viewStore.state.isFavorite ? "heart.fill" : "heart", bundle: .main)
+                    .renderingMode(.template)
+                    .foregroundColor(viewStore.state.isFavorite ? theme.colors.bg.color : theme.colors.main.color)
                 }
                 .frame(width: 48, height: 48, alignment: .center)
                 .background(

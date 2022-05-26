@@ -29,6 +29,7 @@ struct HomeView: View {
             strokeWidth: 1
           )
           Text("character\nbook".uppercased())
+            .fixedSize(horizontal: false, vertical: true)
             .font(.system(size: 32, weight: .black, design: .default))
             .foregroundColor(theme.colors.main.color)
         }
@@ -57,8 +58,9 @@ struct HomeView: View {
         }
       }
       .navigationBarHidden(true)
+      .applyBG()
     }
-    .navigationViewStyle(StackNavigationViewStyle())
+    .navigationViewStyle(.stack)
   }
 
   @ViewBuilder

@@ -24,7 +24,7 @@ struct AppView: View {
 
   init(store: Store<AppState, AppActions>) {
     self.store = store
-    UITabBar.appearance().isTranslucent = false
+    UITabBar.appearance().backgroundImage = UIImage()
     UITabBar.appearance().backgroundColor = Theme.dynamic.colors.bg.uiColor
     UITabBar.appearance().barTintColor = Theme.dynamic.colors.bg.uiColor
     UIScrollView.appearance().bounces = false
@@ -41,7 +41,6 @@ struct AppView: View {
             .renderingMode(.template)
         }
         .tag(AppScreen.home)
-        .applyBG()
       FavoritesView()
         .tabItem {
           let iconName = currentTab == .favorites ? "heart.fill" : "heart"
